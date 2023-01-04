@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
 
 * {
     margin: 0;
@@ -13,7 +12,7 @@
 
 .main-container {
     background-color: #eae9e4;
-    margin: 20px;
+    margin: 25px;
 }
 
 header {
@@ -22,10 +21,9 @@ header {
     align-items: center;
     width: 100%;
     height: 40px;
-    padding: 5px;
+    padding: 15px;
     color: #eae9e4;
     background-color: #1c1717;
-    border-bottom: 2px solid #1c1717;
 }
 
 header h1 {
@@ -40,31 +38,25 @@ header .material-icons {
 
 .container {
     max-width: 1280px;
-    padding: 50px;
+    margin: 0 auto;
+    padding: 60px;
     display: flex;
     flex-wrap: wrap;
     gap: 100px 20px;
 }
 
-.container h1 {
-    padding-bottom: 40px;
-    margin-bottom: 15px;
-}
-
 .card {
-    width: 300px;
-    min-height: 200px;
+    width: 22rem;
+    min-height: 250px;
     background-color: #eae9e4;
-    border: 1px solid #1c1717;
-    margin: 60px;
+    border: 2px solid grey;
     color: #1c1717;
-    padding: 40px;
     position: relative;
+    padding: 40px;
 }
 
 .title {
     font-size: 36px;
-    font-weight: bold;
 }
 
 .sub {
@@ -78,10 +70,11 @@ header .material-icons {
     background-color: #1c1717;
     color: #eae9e4;
     text-align: center;
-    width: 300px;
+    width: 21.9rem;
+    padding: 10px;
     position: absolute;
-    bottom: 39px;
-    right: 0;
+    bottom: -1px;
+    right: -1px;
 }
 
 button {
@@ -94,10 +87,10 @@ button {
     height: 40px;
     align-items: center;
     justify-content: space-between;
-    position: absolute;
+    /* position: absolute;
     bottom: -1px;
-    right: 0;
-    border: none;
+    right: 0; */
+    border: none; 
     }
 
 button:hover {
@@ -106,4 +99,8 @@ button:hover {
 
 button .material-icons {
     font-size: 18px;
+}
+
+.container div{
+    margin: 0 auto;
 }
